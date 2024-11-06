@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#34353a] text-[#fdfdfd] scroll-smooth">
+    <section
+      id="home"
+      class="h-screen font-display max-w-screen-lg mx-auto relative bg-right-bottom bg-no-repeat bg-contain sm:bg-auto"
+      style="background-image: url(./assets/Avatar.png)"
+    >
+      <div class="flex flex-col h-full p-4 bg-zinc-800/75 sm:bg-transparent">
+        <header class="flex justify-between text-lg">
+          <div class="brand">Anand Kumar</div>
+          <div class="flex gap-4 text-[#a1a2a3]">
+            <a
+              class="hover:text-[#fdfdfd] transition-colors duration-300"
+              href="#about"
+              >About</a
+            >
+            <a
+              class="hover:text-[#fdfdfd] transition-colors duration-300"
+              href="#projects"
+              >Projects</a
+            >
+            <a
+              class="hover:text-[#fdfdfd] transition-colors duration-300"
+              href="#contact"
+              >Contact</a
+            >
+          </div>
+          <!-- <div class="empty"></div> -->
+        </header>
+
+        <main class="flex grow flex-col justify-center px-6">
+          <div class="flex flex-col gap-2 pt-24">
+            <div class="flex gap-4 items-end py-4">
+              <span class="text-3xl uppercase">I'm</span>
+              <span class="text-6xl text-[#ffc86b] font-bold">Anand Kumar</span>
+            </div>
+
+            <span class="text-4xl">Web Developer</span>
+
+            <a
+              href="#contact"
+              class="border-4 text-[#ffc86b] border-[#ffc86b] w-fit py-2 px-4 text-lg rounded-lg my-4 hover:bg-[#ffc86b] hover:text-[#34353a] font-bold transition-colors duration-300"
+              >Contact Me</a
+            >
+          </div>
+
+          <div
+            class="absolute right-6 bottom-6 flex flex-col gap-4 items-center"
+          >
+            <div class="w-1 h-24 mb-4 bg-[#ffc86b] text-white"></div>
+
+            <a
+              class="hover:text-[#0A66C2]"
+              href="https://www.linkedin.com/in/anand-kumar-191387271/"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="hover:text-[#872792]"
+              href="https://github.com/anand-kumar-63"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+
+            <a class="hover:text-white"
+              href="https://x.com/anandks8013"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>X</title>
+                <path
+                  d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <section id="about" class="p-4 font-display max-w-screen-lg mx-auto">
+      <div class="text-4xl font-bold py-6">About</div>
+      <div class="flex gap-4">
+        <div class="w-16 shrink-0 mt-4 h-1 bg-[#ffc86b]"></div>
+        <div class="text">
+          <p class="text-lg py-2">
+            Hey, I am Anand Kumar. I am a front-End web developer,I
+            am also a member at <span class="text-[#ffc86b]">Technocrats </span>and
+            <span class="text-[#ffc86b]">GDSC</span> @KIET.
+          </p>
+
+          <p class="text-lg py-2">
+            I love a nice cup of coffee while working, and would love to discuss
+            any ideas over coffee :D
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-4 font-display max-w-screen-lg mx-auto">
+      <div class="text-4xl font-bold py-6 text-center">My Skills</div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/html5.svg"
+            alt="HTML Logo"
+          />
+          <div class="text-center text-2xl font-bold">HTML</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/css3.svg"
+            alt="CSS Logo"
+          />
+          <div class="text-center text-2xl font-bold">CSS</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/javascript.svg"
+            alt="Javascript Logo"
+          />
+          <div class="text-center text-2xl font-bold">Javascript</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/react.svg"
+            alt="React Logo"
+          />
+          <div class="text-center text-2xl font-bold">React</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/tailwind.svg"
+            alt="TailwindCSS Logo"
+          />
+          <div class="text-center text-2xl font-bold">TailwindCSS</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/figma.svg"
+            alt="Figma Logo"
+          />
+          <div class="text-center text-2xl font-bold">Figma</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img class="w-full max-w-full" src="./assets/c.svg" alt="C Logo" />
+          <div class="text-center text-2xl font-bold">C</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/python-logo.svg"
+            alt="Python Logo"
+          />
+          <div class="text-center text-2xl font-bold">Python</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/java.svg"
+            alt="Java Logo"
+          />
+          <div class="text-center text-2xl font-bold">Java</div>
+        </div>
+
+        <div
+          class="p-4 sm:p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-[#ffc86b] border-transparent border-2 bg-[#3d3e42] hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-[#a6721a]/25"
+        >
+          <img
+            class="w-full max-w-full"
+            src="./assets/blender.svg"
+            alt="Blender Logo"
+          />
+          <div class="text-center text-2xl font-bold">Blender</div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="p-2 font-display max-w-screen-lg mx-auto bg-[#31333b]"
+    >
+      <div class="text-4xl font-bold py-2 text-center">Projects</div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2" style="border: 2px solid rgb(75, 74, 74);">
+        <div
+          class="w-full aspect-video cursor-pointer bg-cover bg-center overflow-hidden group"
+          style="background-image: url('assets/game.png')"
+        >
+          <div
+            class="w-full h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 flex flex-col gap-4 justify-center items-center bg-black/75 p-8"
+          >
+            <div class="text-2xl font-bold">Flappy Bird Game</div>
+          </div>
+        </div>
+
+        <div
+          class="w-full aspect-video cursor-pointer bg-cover bg-center overflow-hidden group"
+          style="background-image: url('assets/netflix.png')"
+        >
+          <div
+            class="w-full h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 flex flex-col gap-4 justify-center items-center bg-black/75 p-8"
+          >
+            <div class="text-2xl font-bold">Netflix Clone</div>
+          </div>
+        </div>
+
+        <div
+          class="w-full aspect-video cursor-pointer bg-cover bg-center overflow-hidden group"
+          style="background-image: url('assets/web.png')"
+        >
+          <div
+            class="w-full h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 flex flex-col gap-4 justify-center items-center bg-black/75 p-8"
+          >
+            <div class="text-2xl font-bold">Responsive Website</div>
+          </div>
+        </div>
+
+        <div
+          class="w-full aspect-video cursor-pointer bg-cover bg-center overflow-hidden group"
+          style="background-image: url('assets/weather\ app.png')"
+        >
+          <div
+            class="w-full h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 flex flex-col gap-2 justify-center items-center bg-black/75 p-8"
+          >
+            <div class="text-2xl font-bold">Weather App</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-[#3d3e42] shadow-2xl">
+      <div class="my-12 font-display max-w-screen-lg mx-auto">
+        <div class="relative flex items-center -translate-y-8">
+          <div class="flex-grow border-t-4 border-[#ffc86b]"></div>
+          <span class="flex-shrink mx-4 text-4xl font-bold py-3 text-center"
+            >Contact</span
+          >
+          <div class="flex-grow border-t-4 border-[#ffc86b]"></div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 max-w-screen-md mx-auto gap-4 sm:gap-8 px-4"
+        >
+          <div
+            class="flex gap-4 items-center p-4 bg-[#34353a] rounded-md shadow-lg group"
+          >
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 group-hover:scale-125 transition-transform duration-300"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </div>
+            <a href="mailto:anand.2327cse1077@kiet.edu" class="text-[#ffc86b]"
+              >anand.2327cse1077@kiet.edu</a
+            >
+          </div>
+
+          <div
+            class="flex gap-4 items-center p-4 bg-[#34353a] rounded-md group"
+          >
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 group-hover:scale-125 transition-transform duration-300"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                />
+              </svg>
+            </div>
+            <a href="tel:6306062920" class="text-[#ffc86b]">6306062920</a>
+          </div>
+        </div>
+
+        <div class="relative flex items-center translate-y-7">
+          <div class="flex-grow border-t-4 border-[#ffc86b]"></div>
+          <span
+            class="flex-shrink mx-4 text-4xl font-bold py-3 text-center flex gap-2"
+          >
+            <a
+              class="hover:text-[#0A66C2]"
+              href="https://www.linkedin.com/in/anand-kumar-191387271/"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="hover:text-[#872792]"
+              href="https://github.com/anand-kumar-63"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="hover:text-white"
+              href="https://x.com/anandks8013"
+              target="_blank"
+            >
+              <svg
+                class="icon"
+                role="img"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>X</title>
+                <path
+                  d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                />
+              </svg>
+            </a>
+          </span>
+          <div class="flex-grow border-t-4 border-[#ffc86b]"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
